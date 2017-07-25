@@ -6,9 +6,45 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Ejercicio Guiado BEM</title>
 	<!-- Link archivo css-->
-	
+	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+	<header>
+		<ul class="a-menu">
+			<li class="a-menu__item">
+				<a href="#" class="a-menu__item__link">BLOG</a>
+			</li>
+			<li class="a-menu__item">
+				<a href="#" class="a-menu__item__link">ABOUT</a>
+			</li>
+			<li class="a-menu__item">
+				<a href="#" class="a-menu__item__link">CONTACTO</a>
+			</li>
+		</ul>
+	</header>
 
+	<section>
+		<div class="article">
+			<h2 class="article__title">Mermeladas</h2>
+			<p class="article__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, nesciunt fugit quia temporibus! Ducimus impedit quis quidem. Saepe aliquid laborum et atque! Ut, dignissimos expedita assumenda velit fuga, provident fugiat?</p>
+			<img src="img/mermeladas pirque.jpg" alt="" class="article__img">
+		</div>
+		<div class="article article--green">
+			<h2 class="article__title">Comida Saludable</h2>
+			<p class="article__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, nesciunt fugit quia temporibus! Ducimus impedit quis quidem. Saepe aliquid laborum et atque! Ut, dignissimos expedita assumenda velit fuga, provident fugiat?</p>
+			<img src="img/comida-vegana-230x130.jpg" alt="" class="article__img">
+		</div>
+		<div class="article article--green">
+			<h2 class="article__title">Los beneficios de la Miel</h2>
+			<p class="article__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, nesciunt fugit quia temporibus! Ducimus impedit quis quidem. Saepe aliquid laborum et atque! Ut, dignissimos expedita assumenda velit fuga, provident fugiat?</p>
+			<img src="img/MIEL-DE-ABEJA-230x130.png" alt="" class="article__img">
+		</div>
+	</section>
+
+	<footer class="pie">
+		<p class="pie__item--center">
+			Created by Bere
+		</p>
+	</footer>
 </body>
 </html>
